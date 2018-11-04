@@ -326,8 +326,14 @@ h3 {
     float: left;
 }
 
+#imagenmenu{
+    
+    width: 50%
+    
+}
+
 /*--------------01-E.estilos para imagenes------------------------*/
-.imagen {
+/*.imagen {
     width: 100%;
     margin: 4vh 0;
 
@@ -384,6 +390,16 @@ footer > p {
 
 
 /*----------------------04-Menú(Meli)----------------------------------------------------*/
+    #saladas, #frutas, #topping {
+    width: 66%;
+    padding: 5vh 0% 5vh 3%;
+    float: right;
+    font-size: 120%;
+    margin-top: 50px;
+    box-sizing: border-box;    
+}
+
+
 
 
 
@@ -393,6 +409,18 @@ footer > p {
 /*-------------------------05.Variedades de café(Alexis)-----------------------------------*/
 
 
+.infomenu:hover{
+    
+    display: none:
+    
+}
+
+
+.infomenu:hover .textmenu {
+    
+    display: block;
+    
+}
 
 
 
