@@ -46,6 +46,10 @@
             .imagen:hover{
                 opacity: 0.3;
             }
+    
+            .imagen:hover  .descripcionChemex{
+                display: descripcionChemex;
+            }
 
              #Thelist{
                 margin-top: 100px;

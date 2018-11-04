@@ -15,19 +15,23 @@
     </section>
 
     <section class="sec100">
-        <h1>Crepas:</h1>
+        <h2>Crepas:</h2>
     </section>
 
     <!--- Imagenes y textos del menu principal --->
-    <section class="sec33prin">
 
 
-        <!--- Primera imagen --->
-        <div class="sec33" id="imagenmenu">
+
+    <!--- Primera imagen --->
+
+    <section class="sec50prin">
+        <div class="sec33">
+            <img src="assets/crepasalada.jpg" class="imagen" id="img"></div>
+
+        <div class="sec66" id="csaladas">
             <h3>Saladas</h3>
-            <img src="assets/crepasalada.jpg" class="imagen" id="img">
             <br>
-            <p id="texto" style=display:none>Crepas Saladas?! Si!
+            <p id="texto">Crepas Saladas?! Si!
                 Gracias a su base de harina de trigo el sabor de la masa de la crepa es sumamente flexible y se puede combinar con sabores de todo tipo!
                 <br><br>
                 Se pueden hacer geniales combinaciones como:
@@ -42,15 +46,21 @@
 
 
             </p>
+
         </div>
+    </section>
 
-        <!--- Segunda imagen --->
-        <div class="sec33" id="imagenmenu2">
 
+    <!--- Segunda imagen --->
+
+    <section class="sec50prin">
+        <div class="sec33">
+            <img src="assets/crepa2.jpg" class="imagen" id="img2"></div>
+
+        <div class="sec66" id="cfrutas">
             <h3>Frutas</h3>
-            <img src="assets/crepa2.jpg" class="imagen" id="img2">
             <br>
-            <p id="texto2" style=display:none>
+            <p id="texto2">
                 Las crepas son delicosas y hecha fundamentalmente de harina de trigo, lo cual permite que se puedan combinar con sabores tanto dulces como salados!
                 Aqui particularmente hablamos de las combinaciones que podemos hacer con frutas y toppings.
                 <br><br>
@@ -59,33 +69,45 @@
                 Su precio varia de acuerdo a la combinacion de ingredientes.
 
             </p>
+
+        </div>
+    </section>
+
+
+
+    <!--- Tercera imagen --->
+    <section class="sec50prin">
+        <div class="sec33">
+            <img src="assets/crepa3.jpg" class="imagen" id="img3">
         </div>
 
-
-        <!--- Tercera imagen --->
-        <div class="sec33" id="imagenmenu3">
+        <div class="sec66" id="toppings">
             <h3>Topping</h3>
-            <img src="assets/crepa3.jpg" class="imagen" id="img3">
             <br>
-            <p id="texto3" style=display:none>
+            <p id="texto3">
                 Las crepas son delicosas y hecha fundamentalmente de harina de trigo, lo cual permite que se puedan combinar con sabores tanto dulces como salados!
                 <br><br>
                 Aqui hablamos de las crepas simples que podemos probar con siropes o toppings de diferentes tipos, por ejemplo la combinacion del chocolate con vainilla, dulce de leche y chocochips, y todo esto combinado con helado!
                 <br><br><br>
                 Su precio varia de acuerdo a la combinacion de ingredientes.
             </p>
+
         </div>
+    </section>
 
-        <section class="sec100">
-            <h1>Reposteria:</h1>
-        </section>
+    <section class="sec100">
+        <h2>Reposteria:</h2>
+    </section>
 
-        <!--- Cuarta imagen --->
-        <div class="sec33" id="imagenmenu4">
+    <!--- Cuarta imagen --->
+    <section class="sec50prin">
+        <div class="sec33">
+            <img src="assets/cinnamon.jpg" class="imagen" id="img4"></div>
+
+        <div class="sec66" id="rdulce">
             <h3>Rollo Dulce.</h3>
-            <img src="assets/cinnamon.jpg" class="imagen" id="img4">
             <br>
-            <p id="texto4" style=display:none>
+            <p id="texto4">
                 El rollo de canela es un pan dulce creado en la década de 1920 en Suecia y Dinamarca. Es un clasico y un must-have en cualquier cafeteria!
                 <br><br>
                 Lo preparamos con diferente variedad de toppings, asi como: chocolate, crema batida, leche condensada y crema de canela.
@@ -93,15 +115,22 @@
                 Su distinguido sabor lo hacen uno de los postres mas aclamados por nuestro publico, y debido a esto lo preparamos durante todo el año!
                 <br><br>
                 Los invitamos a probarlo!</p>
+
         </div>
+    </section>
 
 
-        <!--- Quinta imagen --->
-        <div class="sec33" id="imagenmenu5">
+
+
+    <!--- Quinta imagen --->
+    <section class="sec50prin">
+        <div class="sec33">
+            <img src="assets/sandwichroll.jpg" class="imagen" id="img5"></div>
+
+        <div class="sec66" id="rsalado">
             <h3>Rollo Salado</h3>
-            <img src="assets/sandwichroll.jpg" class="imagen" id="img5">
             <br>
-            <p id="texto5" style=display:none>
+            <p id="texto5">
                 Los rollos de pan salados son una manera de hacer un sandwich diferente y mas cool!
                 <br><br>
                 Las combinaciones saladas que se pueden hacer son muchisimas:
@@ -114,15 +143,22 @@
                 <br><br>
                 El precio depende del tamaño.
             </p>
+
         </div>
+    </section>
 
 
-        <!--- Sexta imagen --->
-        <div class="sec33" id="imagenmenu6">
+
+
+    <!--- Sexta imagen --->
+    <section class="sec50prin">
+        <div class="sec33">
+            <img src="assets/cheesecake.jpg" class="imagen" id="img6"></div>
+
+        <div class="sec66" id="cheesecake">
             <h3>Cheesecake</h3>
-            <img src="assets/cheesecake.jpg" class="imagen" id="img6">
             <br>
-            <p id="texto6" style=display:none>
+            <p id="texto6">
                 El clásico y delicios postre. Se puede hacer con muchos diferentes tipos de fruta,
                 la más común siendo la fresa.
                 <br><br>
@@ -139,18 +175,22 @@
     </section>
 
 
+
     <!--Segunda parte del Menu-->
     <section class="sec100">
-        <h1>Bebidas calientes:</h1>
+        <h2>Bebidas calientes:</h2>
     </section>
-    <section class="sec33prin">
 
-        <!--- Septima imagen --->
-        <div class="sec33" id="imagenmenu7">
+
+    <!--- Septima imagen --->
+    <section class="sec50prin">
+        <div class="sec33">
+            <img src="assets/chocolate.jpg" class="imagen" id="img7"></div>
+
+        <div class="sec66" id="chocolate">
             <h3>Chocolate</h3>
-            <img src="assets/chocolate.jpg" class="imagen" id="img7">
             <br>
-            <p id="texto7" style=display:none>
+            <p id="texto7">
                 La bebida caliente perfecta para compañar un snack de media tarde.
                 <br><br>
                 Ofrecemos chocolate caliente y frio.
@@ -161,13 +201,19 @@
 
             </p>
         </div>
+    </section>
 
-        <!--- Octava imagen --->
-        <div class="sec33" id="imagenmenu8">
+
+    <!--- Octava imagen --->
+
+    <section class="sec50prin">
+        <div class="sec33">
+            <img src="assets/te.jpg" class="imagen" id="img8"></div>
+
+        <div class="sec66" id="te">
             <h3>Té</h3>
-            <img src="assets/te.jpg" class="imagen" id="img8">
             <br>
-            <p id="texto8" style=display:none>
+            <p id="texto8">
                 Ofrecemos una gran variedad de tipos de té, principalmente manejamos la marca Twinnings.
                 <br>
                 Los sabores incluyen:
@@ -188,14 +234,20 @@
 
             </p>
         </div>
+    </section>
 
 
-        <!--- Novena imagen --->
-        <div class="sec33" id="imagenmenu9">
+
+    <!--- Novena imagen --->
+
+    <section class="sec50prin">
+        <div class="sec33">
+            <img src="assets/cafe.jpg" class="imagen" id="img9"></div>
+
+        <div class="sec66" id="cafe">
             <h3>Café</h3>
-            <img src="assets/cafe.jpg" class="imagen" id="img9">
             <br>
-            <p id="texto9" style=display:none>El producto principal de una buena cafetería es su café!
+            <p id="texto9"> El producto principal de una buena cafetería es su café!
                 <br><br>
                 Tenemos gran variedad de estilos y sabores:
                 <br><br>
@@ -210,21 +262,28 @@
     </section>
 
 
+
+
+
     <!-- Tercera parte del Menu-->
     <section class="sec100">
-        <h1>Bebidas naturales:</h1>
+        <h2>Bebidas naturales:</h2>
     </section>
 
 
 
-    <section class="sec33prin">
+    <!--Decima Imagen-->
 
-        <!--Decima Imagen-->
 
-        <div class="sec25" id="imagenmenu10">
-            <h3>Limonada</h3>
+    <section class="sec50prin">
+        <div class="sec33">
             <img src="assets/limonada.jpg" class="imagen" id="img10">
-            <p id="texto10" style=display:none>
+        </div>
+
+        <div class="sec66" id="limonada">
+            <h3>Limonada</h3>
+            <br>
+            <p id="texto10">
 
                 Las limonadas! La bebida perfecta para el verano. Es importante tener un balance entre el limon y el azucar para lograr la limonada perfecta.
                 <br>
@@ -233,14 +292,22 @@
                 El precio depende de la combinacion.
             </p>
         </div>
+    </section>
 
 
-        <!--Undemina Imagen-->
 
-        <div class="sec25" id="imagenmenu11">
-            <h3>Batidos</h3>
+
+    <!--Undemina Imagen-->
+
+    <section class="sec50prin">
+        <div class="sec33">
             <img src="assets/batidos.jpg" class="imagen" id="img11">
-            <p id="texto11" style=display:none>
+        </div>
+
+        <div class="sec66" id="batidos">
+            <h3>Batidos</h3>
+            <br>
+            <p id="texto11">
 
                 Tenemos frutas frescas diariamente. Cualquier comida durante el día combinada con un batido fresco a su elección!
                 <br><br>
@@ -252,13 +319,21 @@
 
             </p>
         </div>
+    </section>
 
 
-        <!--Duodecima Imagen-->
-        <div class="sec25" id="imagenmenu12">
-            <h3>Té Frio</h3>
+
+    <!--Duodecima Imagen-->
+
+    <section class="sec50prin">
+        <div class="sec33">
             <img src="assets/tefrio.jpg" class="imagen" id="img12">
-            <p id="texto12" style=display:none>
+        </div>
+
+        <div class="sec66" id="tefrio">
+            <h3>Té Frio</h3>
+            <br>
+            <p id="texto12">
                 Ofrecemos muchas posibles combinaciones: manzana, fresa, papaya, melocotón, albaricoque, frambuesas, naranja, mora, cereza, arándanos, limón, mango, melón, kiwi, coco, higos, jengibre.
                 Frutos secos así como almendra, pistacho, pasas, dátil.
                 Flores y pétalos así como malva, rosa, girasol, azahar, saflor, manzanilla romana, aciano, hibisco.
@@ -269,11 +344,13 @@
 
 
             </p>
-
-
-
         </div>
-        <?php
+    </section>
+
+
+
+
+    <?php
         if (isset($_POST["titulo"])){
             echo '
             
@@ -296,9 +373,9 @@
         }
         
     ?>
-    </section>
 
-<script>
+
+    <script>
         $(document).ready(function() {
 
             //Animation imagen 12
