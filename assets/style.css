@@ -401,33 +401,11 @@ footer > p {
 
 
 /*----------------------04-Menú(Meli)----------------------------------------------------*/
-<<<<<<< HEAD
     #saladas, #frutas, #topping {
+        
     width: 66%;
-=======
-/*
-#csaladas, #cfrutas, #toppings, #rdulce #rsalado,
-#cheesecake, #chocolate, #te, #cafe, #limonada, #batidos,
-#tefrio, {
-    width: 100%;
->>>>>>> 02b75563b3d7a643223a346601461127d274d5ab
-    padding: 5vh 0% 5vh 3%;
-    float: right;
-    font-size: 120%;
-    margin-top: 50px;
-<<<<<<< HEAD
-    box-sizing: border-box;    
+        
 }
-
-
-
-
-
-
-=======
-    box-sizing: border-box;
-}*/
->>>>>>> 02b75563b3d7a643223a346601461127d274d5ab
 
 
 /*-------------------------05.Variedades de café(Alexis)-----------------------------------*/
