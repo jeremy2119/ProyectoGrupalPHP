@@ -548,7 +548,7 @@ footer > p {
 /*-------------Estilo de formulario-----------------*/
 
 form {
-    width: auto;
+    width: 96%;
     border: 1px solid #F6AB2B;
     margin: 20px 5px;
     padding: 20px;
