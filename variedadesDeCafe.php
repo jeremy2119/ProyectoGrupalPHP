@@ -66,7 +66,6 @@
         if(!file_exists($file)){
             echo "<h3>El archivo de datos: datos.js no existe</h3>";
         } else {
-
             // la variable PHP $datos contiene el arreglo de datos del archivo datos.js
             $datos = file_get_contents($file);
         }
