@@ -37,7 +37,7 @@
 
 								<input type="text" id="titulo" name="titulo" placeholder="Escriba El titulo del Producto">
 								
-								<input type="text" id="imagenp" name="imagenp" placeholder="Seleccione una imagen">
+								<input type="file" id="imagenp" name="imagenp" placeholder="Seleccione una imagen">
 
 								<textarea name="descripcion" id="descripcion" cols="30" rows="30" placeholder="Escriba la descripción"></textarea>
 
