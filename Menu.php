@@ -1,3 +1,4 @@
+
 <?php include("header.php"); ?>
 <main>
     <!---Titulo principal de la seccion Menu--->
@@ -349,23 +350,26 @@
 
 
 
-
     <?php
+    
         if (isset($_POST["titulo"])){
+            $titulo=$_POST['titulo'];
+            $descripcion=$_POST['descripcion'];
             echo '
-            
-            <div class="sec25" id="imagenmenu4">
-                    <h3>'. $_POST['titulo'] .'</h3>
-                    <img src="assets/cinnamon.jpg" class="imagen" id="img4">
-                    <br>
-                    <p id="texto4" style= display:none>'. $_POST['descripcion'] .'
-                    </p>
-                </div>'
-            
-            
-            
-            
-            
+                   <!-- Nueva Imagen -->
+
+                    <section class="sec50prin">
+                        <div class="sec33">
+                            <img src="assets/cinnamon.jpg" class="imagen" id="img13">
+                        </div>
+
+                        <div class="sec66" id="prodnew">
+                            <h3>'. $titulo .'</h3>
+                            <br>
+                            <p id="texto13">'. $descripcion .'</p>
+                        </div>
+                    </section>'
+
             ;}
 
         else{
@@ -373,10 +377,43 @@
         }
         
     ?>
+    
+<?php
+        $titulo="";
+            if(!empty($_POST["titulo"])){
+                $titulo = $_POST["titulo"];
+                
+            }
+        $descripcion="";
+            if(!empty($_POST["descripcion"])){
+                $descripcion = $_POST["descripcion"];
+                }
+                
+        //Luego Escribo el .txt con la informacion de productos
 
+        $archivo = "Menu"."_"."$titulo".".txt";
+        $archivo = fopen("$archivo","a+");
+                    fwrite($archivo, $titulo." - ".$descripcion);
+                  fclose($archivo);        
+
+    ?>                
 
     <script>
         $(document).ready(function() {
+            //Animation imagen 13
+            $("#imagenmenu13").click(function() {
+
+                $("#img13").slideUp(800);
+                $("#texto13").slideDown(1000);
+
+            });
+            $("#imagenmenu13").mouseleave(function() {
+
+                $("#img13").slideDown(1000);
+                $("#texto13").slideUp(800);
+
+            });
+
 
             //Animation imagen 12
             $("#imagenmenu12").click(function() {
@@ -554,4 +591,6 @@
 
 
 </main>
-<?php include("footer.php"); ?>
+<?php 
+    include("footer.php"); 
+?>
