@@ -46,27 +46,34 @@
             	<div class="container">
               		<div class="row">
             			<div class="col col-xs-12 secOn">
-            				<h2 class="titulo-h2">Formulario de contacto</h2>
+            				<h2 class="titulo-h2">Formulario de Reservas</h2>
             				
-							<form action="Result_Form.html" target="_blank" method="get" id="formulario">
-		
-								<label for="nombre">Nombre:</label>
-								<input type="text" id="nombre" placeholder="Escriba su nombre">
-								<p class="alertName" id="alertName">Por favor digite su nombre</p>
+							<form method="post" action="test.php">
+                   
+                            <input type="text" id="nombre" name="Nombre" placeholder="Nombre">
+                            <br>
+                            <br>
+                            <input type="text" id="apellido" name="Apellido" placeholder="Apellido">
+                            <br>
+                            <br>
+                            <input type="text" id="cedula" name="Cedula" placeholder="Cedula">
+                            <br>
+                            <br>
+                            <input type="tel" id="telefono" name="Telefono" placeholder="Teléfono">
+                            <br>
+                            <br>
+                            <input type="email" id="correo" name="Correo" placeholder="Correo">
+                            <br>
+                            <br>
+                            <input type="text" id="fecha" name="Fecha" placeholder="Fecha">
+                            <br>
+                            <br>
+                            <input type="submit" id="boton" name="boton" title="boton" value="Enviar">
+                    <br>
+                </form>
+
+
 								
-								<label for="email">Email:</label>
-								<input type="email" id="email" placeholder="Escriba su email">
-								<p class="alertCorreo" id="alertCorreo">Por favor complete su correo</p>
-
-								<label for="mensaje">Mensaje:</label>
-								<textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
-								<p class="alertMensaje" id="alertMensaje">Por favor Escriba un mensaje</p>
-
-								<input class="btn" type="submit" value="enviar" id="enviar">
-								<p class="alertError" id="alertError">Debe rellenar todos los espacios</p>
-
-
-								</form>
 
 
 					
